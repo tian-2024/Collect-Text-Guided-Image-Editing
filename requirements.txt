@@ -1,0 +1,8 @@
+diffusers==0.31.0
+ipython==8.12.3
+numpy==2.2.0
+opencv_python==4.10.0.84
+Pillow==11.0.0
+torch==2.5.1+cu121
+torchvision==0.20.1
+tqdm==4.67.1
