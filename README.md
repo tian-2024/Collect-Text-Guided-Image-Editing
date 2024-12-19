@@ -29,6 +29,8 @@ pip install transformers
 pip install accelerate
 pip install opencv-python
 pip install ipywidgets
+pip install einops
+pip install matplotlib
 ```
 
 ## Implemented Methods
