@@ -9,12 +9,15 @@ The main goal is to ensure the code runs successfully in a consistent conda envi
 
 The cuda environment used here is 12.1.
 
+### option 1
 
 ```bash
 conda create -n tie python=3.10
 conda activate tie
 pip install -r requirements.txt
 ```
+
+### option 2
 
 manually install the following packages:
 
