@@ -31,6 +31,8 @@ pip install opencv-python
 pip install ipywidgets
 pip install einops
 pip install matplotlib
+pip install pytorch-lightning
+pip install omegaconf
 ```
 
 ## Implemented Methods
@@ -46,7 +48,7 @@ pip install matplotlib
 - [x] 03-dds:  (2023 ICCV) [Delta Denoising Score](https://delta-denoising-score.github.io/)
 - [x] 04-fpe:  (2024 CVPR) [Towards Understanding Cross and Self-Attention in Stable Diffusion for Text-Guided Image Editing](https://github.com/alibaba/EasyNLP/tree/master/diffusion/FreePromptEditing)
 - [x] 05-cds:  (2024 CVPR) [Contrastive Denoising Score for Text-guided Latent Diffusion Image Editing](https://github.com/HyelinNAM/ContrastiveDenoisingScore)
-
+- [x] 06-masactrl:  (2023 ICCV) [MasaCtrl: Tuning-Free Mutual Self-Attention Control for Consistent Image Synthesis and Editing](https://ljzycmd.github.io/projects/MasaCtrl/)
 
 ## Planned Methods
 
