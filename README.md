@@ -50,6 +50,7 @@ pip install omegaconf
 - [x] 05-cds:  (2024 CVPR) [Contrastive Denoising Score for Text-guided Latent Diffusion Image Editing](https://github.com/HyelinNAM/ContrastiveDenoisingScore)
 - [x] 06-masactrl:  (2023 ICCV) [MasaCtrl: Tuning-Free Mutual Self-Attention Control for Consistent Image Synthesis and Editing](https://ljzycmd.github.io/projects/MasaCtrl/)
 - [x] 07-sega:  (2023 NeurIPS) [SEGA: Instructing Text-to-Image Models using Semantic Guidance](https://huggingface.co/docs/diffusers/api/pipelines/semantic_stable_diffusion)
+- [x] 08-oir:  (2024 ICLR) [Object-aware Inversion and Reassembly for Image Editing](https://aim-uofa.github.io/OIR-Diffusion/)
 
 ## Planned Methods
 
