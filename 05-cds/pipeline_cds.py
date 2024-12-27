@@ -236,8 +236,8 @@ class CDSPipeline(StableDiffusionPipeline):
                     img = self.decode_latents(z_trg).squeeze()
                     img = Image.fromarray((img * 255).astype(np.uint8))
                     # mkdir output
-                    os.makedirs("../output/cds", exist_ok=True)    
-                    img.save(os.path.join("../output/cds", f"img_{i}.png"))
+                    os.makedirs("output/", exist_ok=True)    
+                    img.save(os.path.join("output/", f"img_{i}.png"))
 
         result = self.decode_latents(z_trg).squeeze()
         result = Image.fromarray((result * 255).astype(np.uint8))
