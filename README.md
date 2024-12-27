@@ -1,9 +1,6 @@
 # [Collect Text-Guided Image Editing (TIE) Methods](https://github.com/tian-2024/TIE-Collect)
 
-## Implemented Methods
-
-
-| method      | year | conference | project                                                                                                                                                                        |
+| Method      | Year | Conference | Project                                                                                                                                                                        |
 | ----------- | ---- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 01-ptp      | 2023 | CVPR       | [Prompt-to-Prompt Image Editing with Cross-Attention Control](https://prompt-to-prompt.github.io/)                                                                             |
 | 02-nti      | 2023 | CVPR       | [Null-text Inversion for Editing Real Images using Guided Diffusion Models](https://null-text-inversion.github.io/)                                                            |
