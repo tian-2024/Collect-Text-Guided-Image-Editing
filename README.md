@@ -1,4 +1,4 @@
-# [Collect Text-Guided Image Editing (TIE) Methods](https://github.com/tian-2024/TIE-Collect)
+# [Collect Text-Guided Image Editing Methods](https://github.com/tian-2024/TIE-Collect)
 
 | Method      | Year | Conference | Project                                                                                                                                                                        |
 | ----------- | ---- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
