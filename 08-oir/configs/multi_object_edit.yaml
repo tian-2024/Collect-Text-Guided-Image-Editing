@@ -16,4 +16,4 @@ multi_object:
     ]
   reassembly_step: 10
   reinversion_steps: 10
-  generation_image_path: "../output/oir/multi_object/"
+  generation_image_path: "result/multi_object/"
