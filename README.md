@@ -1,9 +1,8 @@
 # [Collect Text-Guided Image Editing (TIE) Methods](https://github.com/tian-2024/TIE-Collect)
 
-
-Each directory contains the raw code for text-guided image editing methods using diffusion models.
-
-The main goal is to ensure the code runs successfully in a consistent conda environment. This may require modifying some parts of the code to ensure the entire project operates within the same environment.
+- Each directory contains the raw code for text-guided image editing methods using diffusion models.
+- The main goal is to ensure the code runs smoothly in a consistent conda environment with the latest version of diffusers.
+- This may require modifying parts of the code to ensure compatibility within the same environment.
 
 ## install environment
 
@@ -37,22 +36,14 @@ pip install omegaconf
 
 ## Implemented Methods
 
-### Synthetic Image Editing
 
-
-- [x] 01-ptp:  (2023 ICLR) [Prompt-to-Prompt Image Editing with Cross-Attention Control](https://prompt-to-prompt.github.io/)
-
-### Real Image Editing
-
-- [x] 02-nti:  (2023 CVPR) [Null-text Inversion for Editing Real Images using Guided Diffusion Models](https://null-text-inversion.github.io/)
-- [x] 03-dds:  (2023 ICCV) [Delta Denoising Score](https://delta-denoising-score.github.io/)
-- [x] 04-fpe:  (2024 CVPR) [Towards Understanding Cross and Self-Attention in Stable Diffusion for Text-Guided Image Editing](https://github.com/alibaba/EasyNLP/tree/master/diffusion/FreePromptEditing)
-- [x] 05-cds:  (2024 CVPR) [Contrastive Denoising Score for Text-guided Latent Diffusion Image Editing](https://github.com/HyelinNAM/ContrastiveDenoisingScore)
-- [x] 06-masactrl:  (2023 ICCV) [MasaCtrl: Tuning-Free Mutual Self-Attention Control for Consistent Image Synthesis and Editing](https://ljzycmd.github.io/projects/MasaCtrl/)
-- [x] 07-sega:  (2023 NeurIPS) [SEGA: Instructing Text-to-Image Models using Semantic Guidance](https://huggingface.co/docs/diffusers/api/pipelines/semantic_stable_diffusion)
-- [x] 08-oir:  (2024 ICLR) [Object-aware Inversion and Reassembly for Image Editing](https://aim-uofa.github.io/OIR-Diffusion/)
-
-## Planned Methods
-
-1. [Paint by Example: Exemplar-based Image Editing with Diffusion Models](https://github.com/Fantasy-Studio/Paint-by-Example)
-2. [Imagic: Text-Based Real Image Editing with Diffusion Models](https://github.com/justinpinkney/stable-diffusion/blob/main/notebooks/imagic)
+| method      | year | conference | project                                                                                                                                                                        |
+| ----------- | ---- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 01-ptp      | 2023 | CVPR       | [Prompt-to-Prompt Image Editing with Cross-Attention Control](https://prompt-to-prompt.github.io/)                                                                             |
+| 02-nti      | 2023 | CVPR       | [Null-text Inversion for Editing Real Images using Guided Diffusion Models](https://null-text-inversion.github.io/)                                                            |
+| 03-dds      | 2023 | ICCV       | [Delta Denoising Score](https://delta-denoising-score.github.io/)                                                                                                              |
+| 04-fpe      | 2024 | CVPR       | [Towards Understanding Cross and Self-Attention in Stable Diffusion for Text-Guided Image Editing](https://github.com/alibaba/EasyNLP/tree/master/diffusion/FreePromptEditing) |
+| 05-cds      | 2024 | CVPR       | [Contrastive Denoising Score for Text-guided Latent Diffusion Image Editing](https://github.com/HyelinNAM/ContrastiveDenoisingScore)                                           |
+| 06-masactrl | 2023 | ICCV       | [MasaCtrl: Tuning-Free Mutual Self-Attention Control for Consistent Image Synthesis and Editing](https://ljzycmd.github.io/projects/MasaCtrl/)                                 |
+| 07-sega     | 2023 | NeurIPS    | [SEGA: Instructing Text-to-Image Models using Semantic Guidance](https://huggingface.co/docs/diffusers/api/pipelines/semantic_stable_diffusion)                                |
+| 08-oir      | 2024 | ICLR       | [Object-aware Inversion and Reassembly for Image Editing](https://aim-uofa.github.io/OIR-Diffusion/)                                                                           |
